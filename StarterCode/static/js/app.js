@@ -7,6 +7,8 @@ function init() {
             .append("option")
             .text(sample)
             .property("value", sample);
+
+        console.log(sampleNames);    
         });
         var firstSample = sampleNames[0];
         buildPlots(firstSample);
